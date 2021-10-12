@@ -1,6 +1,10 @@
 var str: String = "Swift"
 var ch: Character = "S"
-var mass: [String] = ["S", "w", "i", "f", "t"]
+var mass = [String]()
+
+for symb in str {
+    mass.append(String(symb))
+}
 
 var dict1: Dictionary = ["One": (100,101), "Two": (200,201)]
 var dict4 = Dictionary(uniqueKeysWithValues: [(1,2), (3,4), (5,6)])
